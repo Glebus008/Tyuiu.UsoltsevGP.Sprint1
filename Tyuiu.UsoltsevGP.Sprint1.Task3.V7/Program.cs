@@ -1,5 +1,5 @@
-﻿using Tyuiu.UsoltsevGP.Sprint1.Task2.V14.Lib;
-namespace Tyuiu.UsoltsevGP.Sprint1.Task2.V14
+﻿using Tyuiu.UsoltsevGP.Sprint1.Task3.V7.Lib;
+namespace Tyuiu.UsoltsevGP.Sprint1.Task3.V7
 {
     class Program
     {
@@ -9,9 +9,9 @@ namespace Tyuiu.UsoltsevGP.Sprint1.Task2.V14
             Console.Title = "Спринт #1 | Выполнил: Усольцев Г. П. | РППб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Арифметические операторы в C#                                     *");
-            Console.WriteLine("* Задание #2                                                              *");
-            Console.WriteLine("* Вариант #14                                                             *");
+            Console.WriteLine("* Тема: Операторы составного присваивания                                 *");
+            Console.WriteLine("* Задание #3                                                              *");
+            Console.WriteLine("* Вариант #7                                                              *");
             Console.WriteLine("* Выполнил: Усольцев Глеб Павлович | РППб-25-1                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
@@ -21,12 +21,14 @@ namespace Tyuiu.UsoltsevGP.Sprint1.Task2.V14
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            Console.WriteLine("Введите расстояние в верстах:");
+
+            Console.WriteLine("* Введите расстояние в верстах:                                           *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine("Температура в градусах Цельсия: " + ds. Console.WriteLine("Введите расстояние в верстах и нажмите <Enter>");(x));
+            double verst = Convert.ToDouble(Console.ReadLine());
+            Console.WriteLine("Расстояние в киллометрах: " + ds.VerstsToKilometers(verst));
             Console.ReadLine();
         }
     }
