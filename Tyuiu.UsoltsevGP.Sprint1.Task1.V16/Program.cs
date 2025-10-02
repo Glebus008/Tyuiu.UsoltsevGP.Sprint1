@@ -9,9 +9,9 @@ namespace Tyuiu.UsoltsevGP.Sprint1.Task1.V16
             Console.Title = "Спринт #1 | Выполнил: Усольцев Г. П. | РППб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Базовые навыки работы в C#                                        *");
+            Console.WriteLine("* Тема: Организация ввода и вывода в консольных приложениях               *");
             Console.WriteLine("* Задание #1                                                              *");
-            Console.WriteLine("* Вариант #16                                                              *");
+            Console.WriteLine("* Вариант #16                                                             *");
             Console.WriteLine("* Выполнил: Усольцев Глеб Павлович | РППб-25-1                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
