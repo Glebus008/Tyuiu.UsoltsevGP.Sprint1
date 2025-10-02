@@ -13,6 +13,7 @@ namespace Tyuiu.UsoltsevGP.Sprint1.Task1.V16.Test
             double x = 2.0;
             double y = 3.0;
             var res = ds.Calculate(x, y, a);
+            Assert.AreEqual(16, res);
         }
     }
 }
