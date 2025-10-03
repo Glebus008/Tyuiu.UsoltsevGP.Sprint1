@@ -1,5 +1,5 @@
-﻿using Tyuiu.UsoltsevGP.Sprint1.Task6.V14.Lib;
-namespace Tyuiu.UsoltsevGP.Sprint1.Task0.V2
+﻿using Tyuiu.UsoltsevGP.Sprint1.Task7.V7.Lib;
+namespace Tyuiu.UsoltsevGP.Sprint1.Task7.V7
 {
     class Program
     {
@@ -9,27 +9,29 @@ namespace Tyuiu.UsoltsevGP.Sprint1.Task0.V2
             Console.Title = "Спринт #1 | Выполнил: Усольцев Г. П. | РППб-25-1";
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* Спринт #1                                                               *");
-            Console.WriteLine("* Тема: Работа со строками класс String                                   *");
-            Console.WriteLine("* Задание #6                                                              *");
-            Console.WriteLine("* Вариант #14                                                             *");
+            Console.WriteLine("* Тема: Добавление к решению итоговых проектов по спринту                 *");
+            Console.WriteLine("* Задание #7                                                              *");
+            Console.WriteLine("* Вариант #7                                                              *");
             Console.WriteLine("* Выполнил: Усольцев Глеб Павлович | РППб-25-1                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
-            Console.WriteLine("* Написать программу: пользователь вводит текст.                          *");
-            Console.WriteLine("* Проверить, что строка составлена только из строчных русских букв.       *");
+            Console.WriteLine("* Написать программу, которая вычисляет математическое выражение          *");
+            Console.WriteLine("* по исходным значениям данных, вводимых пользователем.                   *");
             Console.WriteLine("*                                                                         *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* ИСХОДНЫЕ ДАННЫЕ:                                                        *");
             Console.WriteLine("***************************************************************************");
-            string x;
-            Console.WriteLine("Введите текст:");
-            x = Console.ReadLine();
+            int x, y;
+            Console.WriteLine("Введите значение X:");
+            x = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Введите значение Y:");
+            y = Convert.ToInt32(Console.ReadLine());
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
             Console.WriteLine("***************************************************************************");
 
-            Console.WriteLine(ds.CheckLowerCaseRusLetters(x));
-            Console.ReadKey();
+            Console.WriteLine(ds.Calculate(x, y));
+            Console.ReadLine();
         }
     }
 }

@@ -11,7 +11,7 @@ namespace Tyuiu.UsoltsevGP.Sprint1.Task4.V27
             Console.WriteLine("* Спринт #1                                                               *");
             Console.WriteLine("* Тема: Class Math                                                        *");
             Console.WriteLine("* Задание #4                                                              *");
-            Console.WriteLine("* Вариант #27                                                              *");
+            Console.WriteLine("* Вариант #27                                                             *");
             Console.WriteLine("* Выполнил: Усольцев Глеб Павлович | РППб-25-1                            *");
             Console.WriteLine("***************************************************************************");
             Console.WriteLine("* УСЛОВИЕ:                                                                *");
